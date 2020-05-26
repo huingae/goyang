@@ -1,0 +1,9 @@
+/* main_wrap.css */
+/* 메인페이지 wrap */
+
+#wrap{
+	width: 100%; min-width:940px;
+	height: auto; min-height:800px;
+	margin: auto;
+	background-color: #ccc;
+}
