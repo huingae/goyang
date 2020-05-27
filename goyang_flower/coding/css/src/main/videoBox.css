@@ -1,8 +1,49 @@
 /* videoBox.css */
 /* main-videoBox */
 
+#videoBox{
+	width: 100%;
+}
 
+.videoBox_area{
+	width: 1024px;
+	height: 100%;
+	margin: auto;
+	padding: 200px 20px 0 20px; box-sizing: border-box;
+}
 
+#videoBox h2{
+	display: block;
+	width:auto; height: auto;
+	font-size: 3rem;
+	text-align: center;
+	color: #333;
+	text-transform: uppercase;
+	margin-bottom: 100px;
+}
+
+.video_text{
+	float: left;
+	margin-top: 100px;
+	margin-left: 80px;
+}
+
+.video_text p {
+	font-size: 2.5rem;
+	text-align: center;
+}
+
+.video_text em {
+	font-size: 1.5rem;
+	font-style: normal;
+	color: #777;
+}
+
+.video_area{
+	float: right;
+	width: 500px; height: 360px;
+	background-color: #333;
+}
 
 /* mobile */
 @media screen and (max-width:639px){}

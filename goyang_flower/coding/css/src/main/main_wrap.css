@@ -2,8 +2,7 @@
 /* 메인페이지 wrap */
 
 #wrap{
-	width: 100%; min-width:940px;
-	height: auto; min-height:800px;
+	width: 100%; min-width:1024px;
+	height: auto; min-height:980px;
 	margin: auto;
-	background-color: #ccc;
 }

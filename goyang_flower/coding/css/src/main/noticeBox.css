@@ -1,8 +1,20 @@
 /* noticeBox.css */
 /* main-noticeBox */
 
+#noticeBox{
+	width: 100%; height: 200px;
+}
 
+.noticeBox_area{
+	width: 1024px; height: 100%;
+	margin: auto;
+	padding: 50px 0; box-sizing: border-box;
+}
 
+.notice_box{
+	width: 80%; height: 100%;
+	background-color: #EEA5B5;
+}
 
 /* mobile */
 @media screen and (max-width:639px){}
