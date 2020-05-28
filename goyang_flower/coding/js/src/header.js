@@ -89,7 +89,7 @@ gnbArea.find('dd').hide();
 gnbArea.on('mouseenter', function(){
 	gnbArea.find('dd').stop().slideDown();
 });
-headBox.on('mouseleave', function(){
+gnbArea.on('mouseleave', function(){
 	gnbArea.find('dd').stop().slideUp();
 });
 

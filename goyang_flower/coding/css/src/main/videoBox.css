@@ -43,7 +43,7 @@
 	float: right;
 	width: 500px; height: 360px;
 	background-color: #333;
-	box-shadow: -10px -10px purple;
+	box-shadow: -20px -20px #d2128b;
 }
 
 /* mobile */
