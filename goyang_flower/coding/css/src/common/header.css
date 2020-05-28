@@ -31,8 +31,36 @@ h1>a{
 
 #navBox{
 	float: right;
-	width: auto; height: 100%;
+	width: 700px; height: 100%;
 	background-color: #ccc;
+}
+
+.unb_box{
+	float: right;
+	width: 600px; height: 30%;
+	background-color: #fff;
+}
+
+.gnb_box{
+	float: right;
+	width: 700px; height: auto;
+	background-color: #ccc;
+}
+
+.gnb_box ul{
+	width: 100%; height: 100%;
+}
+
+.gnb_box li{
+	float: left;
+	width: 100%; height: auto;
+}
+
+.gnb_area > li dl dt{
+	width: 100%; height:100%;
+	text-align: center; 
+	font-size: 1.2rem;
+	cursor: pointer;
 }
 
 /* mobile button----------------------------- */
@@ -63,7 +91,15 @@ h1>a{
 	.headBox_area{width: 18.75rem; width: 88.2353vw;}
 	h1{width: 200px;}
 	h1>a{background-image: url(../../../img/logo_0.5x.png);}
-	.unb_area, .gnb_area{display: none;}
+
+	#navBox{
+		float: right;
+		width: auto; height: 100%;
+		background-color: #ccc;
+	}
+
+	.unb_box, .gnb_box{display: none;}
+	
 }
 
 /* tablet================================================= */
@@ -71,7 +107,14 @@ h1>a{
 	#headBox{height: 4.375rem;}
 	.headBox_area{width: 37.5rem; width: 93.75vw;}
 	h1>a{background-image: url(../../../img/logo_0.75x.png);}
-	.unb_area, .gnb_area{display: none;}
+
+	#navBox{
+		float: right;
+		width: auto; height: 100%;
+		background-color: #ccc;
+	}
+
+	.unb_box, .gnb_box{display: none;}
 	.mob_button i {line-height: 4rem;}
 }
 

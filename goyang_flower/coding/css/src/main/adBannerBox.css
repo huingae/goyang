@@ -7,6 +7,10 @@
 	background-color: #ca7;
 }
 
+
+
+
+
 /* scroll_icon============================= */
 
 .scroll_icon{
@@ -39,6 +43,8 @@
 	font-size: 4.5rem;
 	color: #fff;
 }
+/* ============================================ */
+
 
 .slide_box div{
 	position: absolute;
@@ -69,6 +75,8 @@
 
 /* mobile */
 @media screen and (max-width:639px){
+	
+
 	
 }
 
