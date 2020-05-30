@@ -13,7 +13,7 @@ var gnbArr = [
 	{title: '국제꽃박람회',  // gnbArr[0].title
 	 subList : [  // gnbArr[0].subList  
 	 // gnbArr[0].subList[0].linkName , gnbArr[0].subList[0].link
-		 {linkName : '행사개요', link : '#'}, 
+		 {linkName : '행사개요', link : './goyang_flower.html'}, 
 	 // gnbArr[0].subList[1].linkName , gnbArr[0].subList[1].link
 	 {linkName : '전시안내', link : '#' },
 	 // gnbArr[0].subList[2].linkName , gnbArr[0].subList[2].link
@@ -50,6 +50,13 @@ var gnbArr = [
  ]}
  ];
 
+// var gnbTitleLink = './goyang_flower.html'
+// 									 './flower_fes.html'
+// 									 './book_cafe.html'
+// 									 './info.html'
+// 									 './community.html'
+
+
  $('#navBox').append('<div class="unb_box"></div>');
  $('#navBox').append('<div class="gnb_box"></div>');
  var gnbBox = $('.gnb_box');
@@ -66,6 +73,7 @@ for(; i < gnbArr.length; i++){
 	gnbTitle = gnbArr[i].title;
 
 	gnbDt.text( gnbTitle );
+
 	gnbArea.find('dd').eq(i).append('<ul class="gnb_sub"></ul>');
 	gnb_sub = gnbArea.find('.gnb_sub');	
 	
@@ -78,11 +86,13 @@ for(; i < gnbArr.length; i++){
 		gnbSubLink.text(gnbSubText);
 		gnbSubLink.attr({href:gnbSubHref});
 	}
+
 }// ---------------------------------------
 
 var gnbList = gnbArea.children('li');
 var gnbListLength = gnbList.length;
 gnbList.css({width:100 / gnbListLength + '%'});
+
 // --------------------------------------------
 gnbArea.find('dd').hide();
 
@@ -92,5 +102,8 @@ gnbArea.on('mouseenter', function(){
 gnbArea.on('mouseleave', function(){
 	gnbArea.find('dd').stop().slideUp();
 });
+
+
+
 
 })(jQuery);
