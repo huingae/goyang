@@ -15,7 +15,7 @@ var gnbArr = [
 	 // gnbArr[0].subList[0].linkName , gnbArr[0].subList[0].link
 		 {linkName : '행사개요', link : './goyang_flower.html'}, 
 	 // gnbArr[0].subList[1].linkName , gnbArr[0].subList[1].link
-	 {linkName : '전시안내', link : '#' },
+	 {linkName : '전시안내', link : './goyang_flower_info.html' },
 	 // gnbArr[0].subList[2].linkName , gnbArr[0].subList[2].link
 		 {linkName : '편의시설',  link : '#'},
 		 {linkName : '오시는길',  link : '#'}
@@ -38,7 +38,7 @@ var gnbArr = [
 	 subList : [
 		 {linkName : '공지사항', link : '#'},
 		 {linkName : '게시판', link : '#' },
-		 {linkName : '홍보자료',  link : '#'},
+		 {linkName : '홍보자료',  link : './gallery.html'},
 		 {linkName : '언론보도',  link : '#'}
 	]},
 	{title: '커뮤니티',
@@ -53,7 +53,7 @@ var gnbArr = [
 // var gnbTitleLink = './goyang_flower.html'
 // 									 './flower_fes.html'
 // 									 './book_cafe.html'
-// 									 './info.html'
+// 									 './gallery.html'
 // 									 './community.html'
 
 
@@ -97,9 +97,11 @@ gnbList.css({width:100 / gnbListLength + '%'});
 gnbArea.find('dd').hide();
 
 gnbArea.on('mouseenter', function(){
+	gnbArea.find('dl').addClass('action');
 	gnbArea.find('dd').stop().slideDown();
 });
 gnbArea.on('mouseleave', function(){
+	gnbArea.find('dl').removeClass('action');
 	gnbArea.find('dd').stop().slideUp();
 });
 

@@ -60,6 +60,11 @@ h1>a{
 
 .gnb_area >li dl{
 	width: 100%; height: 100%;
+	background-color: #fff;
+}
+
+.gnb_area >li dl.action{
+	border-bottom : 3px solid #d2128b;
 }
 
 .gnb_area > li dl dt{
@@ -70,6 +75,7 @@ h1>a{
 	text-align: center;
 	font-size: 1.2rem;
 	cursor: pointer;
+
 }
 
 .gnb_area > li dl dt:hover,

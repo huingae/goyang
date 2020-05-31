@@ -1,0 +1,24 @@
+/* gallery_contentBox.css */
+
+#contentBox{
+	width: 100%;
+}
+
+.content_area{
+	width: 1024px; height: 100%;
+	margin: auto;
+	padding: 3rem 1rem 0 1rem; box-sizing: border-box;
+	background-color: #cfcfcf;
+}
+
+.content_area h3{
+	width: auto; height: auto;
+	background-color: #fff;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+.content_area h3 i{
+	margin-right: 1rem;
+	color:#F9BF1B;
+}

@@ -68,8 +68,9 @@
 	display: block;
 	position: absolute; z-index: 50;
 	left:0; bottom: 0;
-	width: 100%; height: 302px;
+	width: 100%; height: 200px;
 	background-image: url('../../../img/main/banner_texture.png');
+	background-position: 50% 50%;
 	background-repeat: no-repeat;
 }
 
