@@ -10,7 +10,7 @@
 	var headBoxBg = headBox.css('backgroundColor');
 
 var gnbArr = [
-	{title: '국제꽃박람회',  // gnbArr[0].title
+	{title: '국제꽃박람회', // gnbArr[0].title
 	 subList : [  // gnbArr[0].subList  
 	 // gnbArr[0].subList[0].linkName , gnbArr[0].subList[0].link
 		 {linkName : '행사개요', link : './goyang_flower.html'}, 
@@ -29,7 +29,7 @@ var gnbArr = [
 	]},
 	{title: '플라워북카페',  // gnbArr[2].title
 	 subList : [
-		 {linkName : '시설안내', link : '#'},
+		 {linkName : '시설안내', link : './book_cafe.html'},
 		 {linkName : '북카페/플라워샵', link : '#' },
 		 {linkName : '플라워아카데미',  link : '#'},
 		 {linkName : '이벤트',  link : '#'}
